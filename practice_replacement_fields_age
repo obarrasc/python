@@ -1,0 +1,15 @@
+year_of_birth = input("Enter the year you were born")
+
+age = 2018 - int(year_of_birth)
+age_in_months = 12 * int(age)
+age_in_weeks = 52 * int(age_in_months)
+age_in_days = 365 * int(age_in_weeks)
+age_in_hours = 60 * int(age_in_weeks)
+age_in_minutes = 60 * int(age_in_hours)
+
+print(""""You are {0} years old, 
+{1} months old, 
+{2} weeks old, 
+{3} days old, 
+{4} hours old and 
+{5} minutes old""".format(age, age_in_months, age_in_weeks, age_in_days, age_in_hours, age_in_minutes))
